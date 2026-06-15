@@ -54,8 +54,8 @@ const store = MongoStore.create({
   touchAfter : 24*3600,
 });
 
-store.on("error",()=>{
-  console.log("Error in mongo session store",err);
+store.on("error", (err) => {
+  console.log("Error in mongo session store", err);
 });
 
 const sessionOption = {
@@ -107,6 +107,10 @@ app.use((err,req,res,next)=>{
     
 })
 
-app.listen(port,(req,res)=>{
-    console.log(`app is listing on port ${port}`)
-});
+if (require.main === module) {
+  app.listen(port, () => {
+    console.log(`app is listening on port ${port}`);
+  });
+}
+
+module.exports = app;
