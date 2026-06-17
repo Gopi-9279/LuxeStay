@@ -4,7 +4,7 @@ Wanderlust is a full-stack travel accommodation web application inspired by Airb
 
 ##  Live Demo
 
-**Website:** https://wanderlust-omega-opal.vercel.app/
+**Website:** https://wanderlust-omega-opal.vercel.app/listings
 
 ---
 
