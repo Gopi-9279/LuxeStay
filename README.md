@@ -1,6 +1,6 @@
-# Wanderlust 🌍
+# LuxeStay 🌍
 
-Wanderlust is a full-stack travel accommodation web application inspired by Airbnb. It enables users to explore, create, and manage property listings, upload images, add reviews, and view locations on an interactive map.
+LuxeStay is a full-stack travel accommodation web application inspired by Airbnb. It enables users to explore, create, and manage property listings, upload images, add reviews, and view locations on an interactive map.
 
 ##  Live Demo
 
@@ -10,7 +10,7 @@ Wanderlust is a full-stack travel accommodation web application inspired by Airb
 
 ##  Project Overview
 
-Wanderlust is a travel accommodation platform where users can browse, create, edit, and delete property listings. The application provides secure authentication, authorization, image uploads, reviews, and complete CRUD functionality.
+LuxeStay is a travel accommodation platform where users can browse, create, edit, and delete property listings. The application provides secure authentication, authorization, image uploads, reviews, and complete CRUD functionality.
 
 Built using the MERN ecosystem technologies along with third-party integrations, the platform delivers a seamless experience for travelers and property owners.
 
@@ -118,7 +118,7 @@ Built using the MERN ecosystem technologies along with third-party integrations,
 ## 📂 Project Structure
 
 ```bash
-wanderlust/
+LuxeStay/
 ├── api/
 │   └── index.js
 ├── controllers/
@@ -162,7 +162,7 @@ MAP_TOKEN=your_mapbox_access_token
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Gopi-9279/wanderlust.git
+git clone https://github.com/Gopi-9279/LuxeStay.git
 cd wanderlust
 ```
 
